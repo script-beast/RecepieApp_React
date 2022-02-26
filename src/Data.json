@@ -1,0 +1,18 @@
+{
+    "Ingredient": {
+        "Panner": 0,
+        "Sausage": 0,
+        "Cheese": 0,
+        "Bread": 0,
+        "Tomato": 0,
+        "Sugar": 0
+        },
+
+    "Spice": {
+        "Pepper": 0,
+        "clove": 0,
+        "Garlic": 0,
+        "Salt": 0,
+        "Cumin": 0
+        }
+}

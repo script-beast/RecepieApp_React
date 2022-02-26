@@ -1,0 +1,134 @@
+section {
+  min-height: 100vh;
+  padding: 1rem;
+  overflow-x: hidden;
+  padding-left: 35rem;
+}
+
+.heading {
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid #fff4;
+  color: #fff;
+}
+
+.heading span {
+  color: #f9ca24;
+}
+
+input[type="text"] {
+  font: 2rem "Muli", sans-serif;
+  color: var(--yellow);
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+:focus {
+  outline: none;
+}
+
+.titcol-3 {
+  margin: 40px 20%;
+  position: relative;
+}
+
+.effect-20 {
+  border: 1px solid #ccc;
+  padding: 7px 14px;
+  transition: 0.4s;
+  background: transparent;
+}
+
+.effect-20 ~ .focus-border:before,
+.effect-20 ~ .focus-border:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--yellow);
+  transition: 0.3s;
+}
+.effect-20 ~ .focus-border:after {
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 0;
+}
+.effect-20 ~ .focus-border i:before,
+.effect-20 ~ .focus-border i:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 0;
+  background-color: var(--yellow);
+  transition: 0.4s;
+}
+.effect-20 ~ .focus-border i:after {
+  left: auto;
+  right: 0;
+  top: auto;
+  bottom: 0;
+}
+.effect-20:focus ~ .focus-border:before,
+.effect-20:focus ~ .focus-border:after,
+.has-content.effect-20 ~ .focus-border:before,
+.has-content.effect-20 ~ .focus-border:after {
+  width: 100%;
+  transition: 0.3s;
+}
+.effect-20:focus ~ .focus-border i:before,
+.effect-20:focus ~ .focus-border i:after,
+.has-content.effect-20 ~ .focus-border i:before,
+.has-content.effect-20 ~ .focus-border i:after {
+  height: 100%;
+  transition: 0.4s;
+}
+.effect-20 ~ label {
+  font-size: 1.4rem;
+  position: absolute;
+  left: 14px;
+  width: 100%;
+  top: 10px;
+  color: #aaa;
+  transition: 0.3s;
+  z-index: -1;
+  letter-spacing: 0.5px;
+}
+.effect-20:focus ~ label,
+.has-content.effect-20 ~ label {
+  top: -18px;
+  left: 0;
+  font-size: 1.2rem;
+  color: var(--yellow);
+  transition: 0.3s;
+}
+
+.pay-button {
+  font-size: 2rem;
+  color: #fff
+}
+
+.pay-button:hover {
+  color: #fff
+}
+
+.pay-button:focus {
+  color: #fff;
+  box-shadow: none
+}
+
+.text-grey {
+  color: #a39f9f
+}
+
+.incrsixw{
+  font-size: 1.6rem;
+}
+

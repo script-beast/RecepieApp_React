@@ -1,0 +1,83 @@
+.sidheader{
+    position: fixed;
+    top:0; left:0;
+    z-index: 1000;
+    height:100%;
+    width:35rem;
+    background:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+.sidheader .user .name{
+    font-size: 3.5rem;
+    color:#fff;
+}
+
+.sidheader .sidnavbar{
+    width:100%;
+}
+
+.sidheader .sidnavbar ul{
+    list-style: none;
+    padding:1rem 3rem;
+}
+
+
+.sidheader .sidnavbar ul .navli {
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:#333;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.sidheader .sidnavbar ul .navli:hover{
+    background:#f9ca24;
+}
+
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+
+
+@media (max-width: 991px) {
+    .sidheader {
+      left: -120%;
+    }
+  
+    #menu {
+      display: block;
+    }
+  
+    .sidheader.toggle {
+      left: 0%;
+    }
+  
+    section {
+      padding: 0;
+    }
+  }
+  
+  
+  @media (max-width: 400px) {
+    .sidheader {
+      width: 100vw;
+    }
+    .heading {
+      margin: 0 3rem;
+    }
+  }

@@ -1,0 +1,17 @@
+.finheading {
+    text-align: center;
+    margin: 0 3rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: 0.1rem solid #fff4;
+    color: #fff;
+  }
+  
+  .finheading span {
+    color: #f9ca24;
+  }
+
+.img-thumbnail{
+  height: 30em;
+  width: 30em;
+}
